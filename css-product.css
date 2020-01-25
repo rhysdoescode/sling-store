@@ -1,0 +1,322 @@
+/*Main rules*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #434444;
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    z-index: 2;
+}
+body {
+    
+    color: #262626;
+    font-family: 'Yantramanav', sans-serif;
+  }
+html, body{
+    height: 100%;
+    margin: 0;
+    width: 100%
+}
+h1{
+    color: #434444;
+    font-family: 'Bitter', serif;
+    margin-bottom: -10px
+}
+h2{
+    color: #434444;
+    font-family: 'Yantramanav', sans-serif;
+    
+    margin-bottom: -15px
+}
+#anchor{
+    padding-top: 100px;
+    margin-top: -100px;
+}
+/*Header */
+#header-img{
+    width: 60px;
+    height: auto;
+    max-height: 130px;
+    max-width: 130px;
+    margin: 10px 10px 10px 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#nav-div{
+    display: flex;
+    
+    justify-content: space-around;
+    color: rgb(233, 233, 233);
+    font-size: 20px
+    
+
+    
+
+    
+}
+a{
+    
+    transition: color 0.2s;
+    text-decoration: none;
+    color: #e2e2e2;
+}
+a:hover{
+    color: #afafaf
+}
+/*Splash bit*/
+
+#splash-wrapper{
+    text-align: center;
+    display: flex;]
+    align-items: center;
+   
+    
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    
+    background-image: linear-gradient(45deg, #0078af, #047cb3)
+   
+
+}
+#splash{
+    margin: auto;
+    padding-bottom: 70px;
+    
+    
+   
+
+    
+
+}
+
+#intro{
+    margin-bottom: 5px;
+    font-size: 75px;
+    margin-top: 100px;
+    color: #e2e2e2;
+    padding: 0px 3px 0px 3px;
+}
+#splash-hr{
+    border:#014f74 solid 2px;
+    width: 90%;
+    margin-top: 12px;
+    margin-bottom: -1px;
+}
+
+#email-label{
+    font-size: 33.5px;
+    color: #e2e2e2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8.5px;
+    align-self: center;
+}
+
+#email{
+    margin-left: 10px;
+  
+    border: none;
+    border-radius: 3px;
+    height: 28px;
+    align-self: center;
+    min-width: 300px;
+    padding-left: 6px;
+    
+    font-size: 13px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 18px;
+    color: rgb(29, 29, 29);
+    
+    
+
+   
+   
+}
+#scroll-down{
+    position: absolute;
+    bottom: 2px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    color: #e2e2e2;
+    transition: transform 0.5s;
+    font-size: 21px
+    
+}
+#scroll-down:hover{
+    transform: translateY(-3px);
+
+}
+#scroll-link{
+    text-decoration: none;
+    color: #e2e2e2;
+    
+    
+}
+form{
+    margin-top: 12px;
+}
+
+    
+#submit{
+    width: 143px;
+    height: 47px;
+    border: none;
+    border-radius: 3px;
+    
+    
+    
+    background-color: #014f74;
+    text-decoration: none;
+    color:#262626;
+    
+    
+    
+    
+    transition: background-color 0.5s;
+   
+    margin-top: 9.5px;
+    font-size: 33px;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    padding-left: 5px;
+    background-color: rgb(241, 231, 139)
+    
+    
+    
+}
+#submit:hover{
+    background-color: rgb(243, 204, 10);
+    
+}
+
+
+/*Under splash page*/
+#under-header{
+    margin:-9px 110px 0px 110px;
+    
+    
+}
+a{
+    margin-right: 10px;
+    margin-left: 10px
+}
+#des-title{
+    font-size: 38px;
+    margin-bottom: -17px;
+    
+
+}
+#des{
+    font-size: 24px;
+    margin-bottom: 19px
+   
+    
+    
+    
+}
+
+#video-wrapper{
+    margin: 0 auto;
+    max-width: 700px;
+    
+}
+
+#video-section{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+    
+    
+}
+iframe{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+#quality-title{
+    font-size: 38px;
+
+}
+#quality{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+
+    
+    
+}
+.quality-div{
+    width: 30%;
+    text-align: center;
+    background-color: #c9c9c9;
+    padding: 18px 8px 0px 8px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    border-radius: 3px
+
+}
+h2{
+    font-size: 30px;
+}
+.quality-img{
+    width: 70%;
+    margin-bottom: -19px;
+    text-align: center;
+    border: solid 8px #434444;
+    
+}
+.quality-div p{
+    font-size: 18px
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(45deg, #0078af, #047cb3);
+    
+    font-size: 17px;
+    color: #e2e2e2
+}
+#freeCodeCamp-logo{
+    max-width: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 800px){
+    #quality{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .quality-div{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .quality-img{
+        width: 40%;
+        
+    }
+}
